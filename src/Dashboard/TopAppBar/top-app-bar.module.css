@@ -9,7 +9,10 @@
   background: var( --md-sys-color-primary-container);
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 0 18px;
 }
+/* .top-app-bar[prefix="_topAppbar-dw-31"] > .layout > * {
+    flex: 1 1 1;
+} */
