@@ -1,0 +1,6 @@
+.home-icons[prefix="_homeIcons-mr-32"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 6px;
+}
