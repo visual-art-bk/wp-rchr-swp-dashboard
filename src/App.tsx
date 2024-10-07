@@ -26,7 +26,7 @@ function App({ isValidRootElement }: { isValidRootElement: boolean }) {
     return <div>대시보드 준비중이에요.</div>;
   }
   return (
-    <div className="app" prefix="_wpRchrSwpApp-fd-23">
+    <div className="app light" prefix="_wpRchrSwpApp-fd-23">
       <Dashboard></Dashboard>
     </div>
   );

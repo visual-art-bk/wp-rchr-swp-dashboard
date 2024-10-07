@@ -1,5 +1,5 @@
 .wp-rhr-swp-dashboard[prefix="_dash-er-32"] {
   width: 100%;
 
-  background-color: lightblue;
+  background: var(--md-sys-color-background);
 }
