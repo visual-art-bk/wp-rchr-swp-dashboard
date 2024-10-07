@@ -2,6 +2,7 @@ import React, { ReactNode } from "react";
 import { createRoot } from "react-dom/client";
 import "./app.module.css";
 import Dashboard from "./Dashboard/Dashboard";
+
 const ROOT_ID_TO_WORDPRESS_BODY_CONTENT = "wpbody-content";
 const rootID = "wpRchrSwpDashboardRoot";
 const rootElement = document.getElementById(rootID);
