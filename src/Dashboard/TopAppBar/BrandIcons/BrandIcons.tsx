@@ -9,9 +9,19 @@ export default function BrandIcons() {
 }
 
 function Icon() {
+  const makeUrl = (pathname: string) => {
+    const { origin } = window.location;
+    return origin + "/" + pathname;
+  };
+
   return (
     <div className="icon">
-      <span>아이콘</span>
+      <img
+        src={makeUrl(
+          "wp-content/plugins/wp-rchr-swiper/assets/img/rchr_wordpress_plugin_icon.png"
+        )}
+        alt="Website Logo" width="36" height="36"
+      ></img>
     </div>
   );
 }

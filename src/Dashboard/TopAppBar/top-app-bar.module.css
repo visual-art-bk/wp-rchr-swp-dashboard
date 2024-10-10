@@ -5,7 +5,7 @@
 .top-app-bar[prefix="_topAppbar-dw-31"] > .layout {
   height: 74px;
   border-radius: 24px 24px 0 0;
-  overflow: hidden;
+
   background: var( --md-sys-color-primary-container);
 
   display: flex;
@@ -13,6 +13,3 @@
   align-items: center;
   padding: 0 18px;
 }
-/* .top-app-bar[prefix="_topAppbar-dw-31"] > .layout > * {
-    flex: 1 1 1;
-} */

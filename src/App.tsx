@@ -9,6 +9,7 @@ const rootElement = document.getElementById(rootID);
 
 if (rootElement !== null && rootElement !== undefined) {
   createRoot(rootElement).render(<App isValidRootElement={true}></App>);
+  console.log('뤼초록 스와이퍼 시작합니다.')
 } else {
   console.error(
     `Invalid id [ ${rootID} ] to the page of the dashboard of Wp-Swiper.`
@@ -19,12 +20,13 @@ if (rootElement !== null && rootElement !== undefined) {
 
   // @ts-ignore
   // That' why rootWpBodyContent is got by the id of Wordpress.
-  createRoot(rootWpBodyContent).render(<div>대시보드 준비중이에요.</div>);
+  // createRoot(rootWpBodyContent).render(<div>대시보드 준비중이에요.</div>);
 }
 
 function App({ isValidRootElement }: { isValidRootElement: boolean }) {
   if (isValidRootElement === false) {
-    return <div>대시보드 준비중이에요.</div>;
+    // return <div>대시보드 준비중이에요.</div>;
+    console.error('Error..')
   }
   return (
     <div className="app light" prefix="_wpRchrSwpApp-fd-23">

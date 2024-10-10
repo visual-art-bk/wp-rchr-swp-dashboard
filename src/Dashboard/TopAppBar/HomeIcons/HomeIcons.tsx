@@ -10,7 +10,7 @@ export default function HomeIcons() {
 
 function Icon() {
   return (
-    <div className="icon">
+    <div className="icon material-icons">
       <span>home</span>
     </div>
   );
