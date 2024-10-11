@@ -1,0 +1,4 @@
+.more-menus[prefix="_moreMenus-dk-43"] span {
+  font-size: var(--md-sys-admin-top-app-bar-font-size);
+  font-weight: var(--md-sys-admin-top-app-bar-font-weight);
+}

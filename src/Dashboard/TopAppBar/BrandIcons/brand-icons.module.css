@@ -3,3 +3,7 @@
   column-gap: 6px;
   align-items: center;
 }
+.brand-icons[prefix="_brandIcons-ek-43"] > .title {
+  font-size: var(--md-sys-admin-top-app-bar-brand-title-font-size);
+  font-weight: var(--md-sys-admin-top-app-bar-brand-title-font-weight);
+}

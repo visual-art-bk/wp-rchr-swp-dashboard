@@ -1,0 +1,8 @@
+.slide-section-layout[prefix="_slideSecLay-de-64"] {
+ width: 294px;
+ height: 195px;
+ background: var(--md-sys-color-primary-container);
+
+ overflow: hidden;
+ border-radius: 36px;
+}
