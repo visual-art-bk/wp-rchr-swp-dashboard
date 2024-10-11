@@ -14,7 +14,7 @@ export default function NewSlide() {
 
 function Icon() {
   return (
-    <div className="icon material-icons md-48" prefix={PREFIX}>
+    <div className="icon material-icons md-40" prefix={PREFIX}>
       <span>add_circle</span>
     </div>
   );

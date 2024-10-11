@@ -1,0 +1,19 @@
+.thumbnail[prefix="_thb-fj-54"] {
+  position: relative;
+  width: 294px;
+  height: 136px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--md-sys-color-secondary-container);
+}
+.thumbnail-stack-number[prefix="_thb-fj-54"] {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+}
+.thumbnail-stack-number[prefix="_thb-fj-54"] > span {
+  font-size: var(--md-sys-admin-main-page-my-slide-stack-num-font-size);
+  font-weight: var(--md-sys-admin-main-page-my-slide-stack-num-font-weight);
+}
