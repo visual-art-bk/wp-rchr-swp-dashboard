@@ -1,9 +1,26 @@
 .my-slide[prefix="_mySl-fj-54"] {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .my-slide-link[prefix="_mySl-fj-54"] {
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.slide-name[prefix="_mySl-fj-54"] {
+  width: 100%;
+  height: 60px;
+
+  padding: 0 24px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: var(--md-sys-color-tertiary);
+}
+
+.slide-name[prefix="_mySl-fj-54"] > span {
+  color: var(--md-sys-color-on-tertiary);
+  font-size: var(--md-sys-admin-main-page-my-slide-banner-title-font-size);
+  font-weight: var(--md-sys-admin-main-page-my-slide-banner-title-font-weigth);
 }

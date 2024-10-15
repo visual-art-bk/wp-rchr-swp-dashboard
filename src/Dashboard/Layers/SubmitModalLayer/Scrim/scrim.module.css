@@ -1,0 +1,17 @@
+.scrim-layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* 검은색 반투명 */
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease; /* 부드러운 전환 효과 */
+  }
+  .scrim-layer.scrim-layer--show{
+    opacity: 1;
+  }
+  .--hidden {
+    display: none;
+  }
